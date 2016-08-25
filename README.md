@@ -1,1 +1,1 @@
-# Alpha build in development lol
+# Alpha build in development. More updates coming Soon™.

@@ -49,7 +49,6 @@
      <Compile Include="Assets\Tiled2Unity\Scripts\Item.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Player_Inventory.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Player_Movement.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Player_Movement[Conflict].cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />

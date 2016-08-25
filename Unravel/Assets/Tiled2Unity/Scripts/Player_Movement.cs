@@ -8,11 +8,13 @@ public class Player_Movement : MonoBehaviour {
     public LayerMask blockinglayer;
     private PolygonCollider2D boxcollider;
     public GameObject frost_bolt;
-    private Animation anim;
+    
+    Animator animu;
 
     // Use this for initialization
     void Start()
     {
+        animu = GetComponent<Animator>();
         boxcollider = GetComponent<PolygonCollider2D>();
     }
 
@@ -26,16 +28,39 @@ public class Player_Movement : MonoBehaviour {
         {
 
             if (Input.GetKey(KeyCode.W) && move(0.0f, speed * Time.deltaTime, out hit))
+            {
                 transform.position += new Vector3(0.0f, speed * Time.deltaTime, 0.0f);
+                animu.SetBool("move_up", true);
+            }
+            else
+                animu.SetBool("move_up", false);
+
 
             if (Input.GetKey(KeyCode.S) && move(0.0f, -speed * Time.deltaTime, out hit))
+            {
                 transform.position += new Vector3(0.0f, -speed * Time.deltaTime, 0.0f);
+                animu.SetBool("move_down", true);
+            }
+            else
+                animu.SetBool("move_down", false);
+
 
             if (Input.GetKey(KeyCode.D) && move(speed * Time.deltaTime, 0.0f, out hit))
+            {
                 transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+                animu.SetBool("move_right", true);
+            }
+            else
+                animu.SetBool("move_right", false);
+
 
             if (Input.GetKey(KeyCode.A) && move(-speed * Time.deltaTime, 0.0f, out hit))
+            {
                 transform.position += new Vector3(-speed * Time.deltaTime, 0.0f, 0.0f);
+                animu.SetBool("move_left", true);
+            }
+            else
+                animu.SetBool("move_left", false);
         }
     }
 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 90ec11b4069c81948afd173218e0e109
-timeCreated: 1472119819
+guid: e86fdd073b86bc84eb0b5fcad67da8bd
+timeCreated: 1472159623
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -54,6 +54,7 @@ TextureImporter:
     21300094: $linkEdit_47
     21300096: $linkEdit_48
     21300098: $linkEdit_49
+    21300100: $linkEdit_50
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -96,7 +97,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
-  textureType: 8
+  textureType: 5
   buildTargetSettings: []
   spriteSheet:
     sprites:
@@ -108,7 +109,7 @@ TextureImporter:
         width: 90
         height: 115
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 22, y: 57.5}
@@ -128,7 +129,7 @@ TextureImporter:
         width: 90
         height: 115
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 22, y: 57.5}
@@ -148,7 +149,7 @@ TextureImporter:
         width: 90
         height: 115
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 22, y: 57.5}
@@ -161,6 +162,26 @@ TextureImporter:
         - {x: 45, y: 43.5}
         - {x: 33, y: 54.5}
     - name: $linkEdit_3
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 910
+        width: 90
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 57.5}
+        - {x: -32, y: 57.5}
+        - {x: -45, y: 46.5}
+        - {x: -45, y: -45.5}
+        - {x: -43, y: -57.5}
+        - {x: 44, y: -57.5}
+        - {x: 45, y: -54.5}
+        - {x: 45, y: 43.5}
+        - {x: 33, y: 54.5}
+    - name: $linkEdit_4
       rect:
         serializedVersion: 2
         x: 20
@@ -179,7 +200,7 @@ TextureImporter:
         - {x: 26.5, y: -55}
         - {x: 42.5, y: -32}
         - {x: 42.5, y: 53}
-    - name: $linkEdit_4
+    - name: $linkEdit_5
       rect:
         serializedVersion: 2
         x: 140
@@ -198,7 +219,7 @@ TextureImporter:
         - {x: 26.5, y: -55}
         - {x: 42.5, y: -32}
         - {x: 42.5, y: 53}
-    - name: $linkEdit_5
+    - name: $linkEdit_6
       rect:
         serializedVersion: 2
         x: 260
@@ -206,7 +227,7 @@ TextureImporter:
         width: 85
         height: 110
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 32.5, y: 55}
@@ -217,7 +238,7 @@ TextureImporter:
         - {x: 26.5, y: -55}
         - {x: 42.5, y: -32}
         - {x: 42.5, y: 53}
-    - name: $linkEdit_6
+    - name: $linkEdit_7
       rect:
         serializedVersion: 2
         x: 15
@@ -234,28 +255,10 @@ TextureImporter:
         - {x: 45, y: -52.5}
         - {x: 45, y: 43.5}
         - {x: 38, y: 52.5}
-    - name: $linkEdit_7
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 520
-        width: 85
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -42.5, y: -11}
-        - {x: -8.5, y: -55}
-        - {x: 29.5, y: -55}
-        - {x: 42.5, y: -13}
-        - {x: 42.5, y: 55}
-        - {x: -35.5, y: 55}
-        - {x: -42.5, y: 54}
     - name: $linkEdit_8
       rect:
         serializedVersion: 2
-        x: 130
+        x: 15
         y: 520
         width: 85
         height: 110
@@ -273,7 +276,7 @@ TextureImporter:
     - name: $linkEdit_9
       rect:
         serializedVersion: 2
-        x: 255
+        x: 130
         y: 520
         width: 85
         height: 110
@@ -289,6 +292,24 @@ TextureImporter:
         - {x: -35.5, y: 55}
         - {x: -42.5, y: 54}
     - name: $linkEdit_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 520
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: -11}
+        - {x: -8.5, y: -55}
+        - {x: 29.5, y: -55}
+        - {x: 42.5, y: -13}
+        - {x: 42.5, y: 55}
+        - {x: -35.5, y: 55}
+        - {x: -42.5, y: 54}
+    - name: $linkEdit_11
       rect:
         serializedVersion: 2
         x: 15
@@ -310,7 +331,7 @@ TextureImporter:
         - {x: 23, y: -48.5}
         - {x: 41, y: -40.5}
         - {x: 45, y: -36.5}
-    - name: $linkEdit_11
+    - name: $linkEdit_12
       rect:
         serializedVersion: 2
         x: 135
@@ -329,7 +350,7 @@ TextureImporter:
         - {x: 45, y: -23}
         - {x: 45, y: 43}
         - {x: 25, y: 55}
-    - name: $linkEdit_12
+    - name: $linkEdit_13
       rect:
         serializedVersion: 2
         x: 255
@@ -348,7 +369,7 @@ TextureImporter:
         - {x: 45, y: 1}
         - {x: 45, y: 55}
         - {x: 34, y: 60}
-    - name: $linkEdit_13
+    - name: $linkEdit_14
       rect:
         serializedVersion: 2
         x: 375
@@ -369,7 +390,7 @@ TextureImporter:
         - {x: 45, y: -41}
         - {x: 45, y: 58}
         - {x: 33, y: 60}
-    - name: $linkEdit_14
+    - name: $linkEdit_15
       rect:
         serializedVersion: 2
         x: 495
@@ -389,7 +410,7 @@ TextureImporter:
         - {x: 45, y: -49}
         - {x: 45, y: 37}
         - {x: 20, y: 60}
-    - name: $linkEdit_15
+    - name: $linkEdit_16
       rect:
         serializedVersion: 2
         x: 615
@@ -408,7 +429,7 @@ TextureImporter:
         - {x: 45, y: -50.5}
         - {x: 45, y: 35.5}
         - {x: 30, y: 57.5}
-    - name: $linkEdit_16
+    - name: $linkEdit_17
       rect:
         serializedVersion: 2
         x: 735
@@ -429,7 +450,7 @@ TextureImporter:
         - {x: 38, y: -46}
         - {x: 45, y: -21}
         - {x: 45, y: 28}
-    - name: $linkEdit_17
+    - name: $linkEdit_18
       rect:
         serializedVersion: 2
         x: 855
@@ -450,7 +471,7 @@ TextureImporter:
         - {x: 45, y: -43}
         - {x: 45, y: 45}
         - {x: 34, y: 56}
-    - name: $linkEdit_18
+    - name: $linkEdit_19
       rect:
         serializedVersion: 2
         x: 975
@@ -471,7 +492,7 @@ TextureImporter:
         - {x: 37, y: -38}
         - {x: 45, y: -21}
         - {x: 45, y: 41}
-    - name: $linkEdit_19
+    - name: $linkEdit_20
       rect:
         serializedVersion: 2
         x: 1095
@@ -491,7 +512,7 @@ TextureImporter:
         - {x: 45, y: -45}
         - {x: 45, y: 39}
         - {x: 33, y: 57}
-    - name: $linkEdit_20
+    - name: $linkEdit_21
       rect:
         serializedVersion: 2
         x: 5
@@ -512,7 +533,7 @@ TextureImporter:
         - {x: 57.5, y: -3}
         - {x: 57.5, y: 45}
         - {x: 56.5, y: 47}
-    - name: $linkEdit_21
+    - name: $linkEdit_22
       rect:
         serializedVersion: 2
         x: 130
@@ -531,7 +552,7 @@ TextureImporter:
         - {x: 47.5, y: -16.5}
         - {x: 47.5, y: 47.5}
         - {x: 46.5, y: 50.5}
-    - name: $linkEdit_22
+    - name: $linkEdit_23
       rect:
         serializedVersion: 2
         x: 245
@@ -548,7 +569,7 @@ TextureImporter:
         - {x: 47.5, y: -50}
         - {x: 47.5, y: 36}
         - {x: 36.5, y: 50}
-    - name: $linkEdit_23
+    - name: $linkEdit_24
       rect:
         serializedVersion: 2
         x: 370
@@ -566,7 +587,7 @@ TextureImporter:
         - {x: 47.5, y: -35}
         - {x: 47.5, y: 41}
         - {x: 34.5, y: 55}
-    - name: $linkEdit_24
+    - name: $linkEdit_25
       rect:
         serializedVersion: 2
         x: 490
@@ -596,7 +617,7 @@ TextureImporter:
         - {x: 28, y: -36}
         - {x: 28, y: -24}
         - {x: 47, y: -10}
-    - name: $linkEdit_25
+    - name: $linkEdit_26
       rect:
         serializedVersion: 2
         x: 605
@@ -616,7 +637,7 @@ TextureImporter:
         - {x: 18.5, y: -32}
         - {x: 54.5, y: -2}
         - {x: 57.5, y: 1}
-    - name: $linkEdit_26
+    - name: $linkEdit_27
       rect:
         serializedVersion: 2
         x: 730
@@ -636,7 +657,7 @@ TextureImporter:
         - {x: 47.5, y: -43}
         - {x: 47.5, y: 33}
         - {x: 43.5, y: 49}
-    - name: $linkEdit_27
+    - name: $linkEdit_28
       rect:
         serializedVersion: 2
         x: 850
@@ -653,7 +674,7 @@ TextureImporter:
         - {x: 45, y: -52.5}
         - {x: 45, y: 50.5}
         - {x: 39, y: 52.5}
-    - name: $linkEdit_28
+    - name: $linkEdit_29
       rect:
         serializedVersion: 2
         x: 975
@@ -671,7 +692,7 @@ TextureImporter:
         - {x: 47.5, y: -33.5}
         - {x: 47.5, y: 51.5}
         - {x: 41.5, y: 52.5}
-    - name: $linkEdit_29
+    - name: $linkEdit_30
       rect:
         serializedVersion: 2
         x: 1090
@@ -688,7 +709,7 @@ TextureImporter:
         - {x: 50, y: -25}
         - {x: 50, y: 44}
         - {x: 36, y: 55}
-    - name: $linkEdit_30
+    - name: $linkEdit_31
       rect:
         serializedVersion: 2
         x: 15
@@ -710,7 +731,7 @@ TextureImporter:
         - {x: 45, y: -44}
         - {x: 45, y: 46}
         - {x: 41, y: 55}
-    - name: $linkEdit_31
+    - name: $linkEdit_32
       rect:
         serializedVersion: 2
         x: 135
@@ -731,7 +752,7 @@ TextureImporter:
         - {x: 45, y: -34}
         - {x: 45, y: 37}
         - {x: 31, y: 55}
-    - name: $linkEdit_32
+    - name: $linkEdit_33
       rect:
         serializedVersion: 2
         x: 255
@@ -753,7 +774,7 @@ TextureImporter:
         - {x: 45, y: -13}
         - {x: 45, y: 45}
         - {x: 38, y: 55}
-    - name: $linkEdit_33
+    - name: $linkEdit_34
       rect:
         serializedVersion: 2
         x: 375
@@ -774,7 +795,7 @@ TextureImporter:
         - {x: 45, y: -21}
         - {x: 45, y: 36}
         - {x: 28, y: 60}
-    - name: $linkEdit_34
+    - name: $linkEdit_35
       rect:
         serializedVersion: 2
         x: 495
@@ -794,7 +815,7 @@ TextureImporter:
         - {x: 45, y: -21}
         - {x: 45, y: 35}
         - {x: 39, y: 51}
-    - name: $linkEdit_35
+    - name: $linkEdit_36
       rect:
         serializedVersion: 2
         x: 615
@@ -813,7 +834,7 @@ TextureImporter:
         - {x: 45, y: -40}
         - {x: 45, y: 54}
         - {x: 44, y: 55}
-    - name: $linkEdit_36
+    - name: $linkEdit_37
       rect:
         serializedVersion: 2
         x: 735
@@ -832,7 +853,7 @@ TextureImporter:
         - {x: 45, y: -39}
         - {x: 45, y: 37}
         - {x: 28, y: 55}
-    - name: $linkEdit_37
+    - name: $linkEdit_38
       rect:
         serializedVersion: 2
         x: 855
@@ -853,7 +874,7 @@ TextureImporter:
         - {x: 45, y: -34}
         - {x: 45, y: 36}
         - {x: 33, y: 56}
-    - name: $linkEdit_38
+    - name: $linkEdit_39
       rect:
         serializedVersion: 2
         x: 975
@@ -874,7 +895,7 @@ TextureImporter:
         - {x: 2, y: -55}
         - {x: 34, y: -49}
         - {x: 45, y: -24}
-    - name: $linkEdit_39
+    - name: $linkEdit_40
       rect:
         serializedVersion: 2
         x: 1095
@@ -895,7 +916,7 @@ TextureImporter:
         - {x: 45, y: -48}
         - {x: 45, y: 52}
         - {x: 42, y: 56}
-    - name: $linkEdit_40
+    - name: $linkEdit_41
       rect:
         serializedVersion: 2
         x: 5
@@ -914,7 +935,7 @@ TextureImporter:
         - {x: 50, y: -54}
         - {x: 50, y: 49}
         - {x: 39, y: 55}
-    - name: $linkEdit_41
+    - name: $linkEdit_42
       rect:
         serializedVersion: 2
         x: 135
@@ -934,7 +955,7 @@ TextureImporter:
         - {x: 46.5, y: -50}
         - {x: 47.5, y: -44}
         - {x: 47.5, y: 54}
-    - name: $linkEdit_42
+    - name: $linkEdit_43
       rect:
         serializedVersion: 2
         x: 255
@@ -954,7 +975,7 @@ TextureImporter:
         - {x: 47.5, y: -34}
         - {x: 47.5, y: 35}
         - {x: 46.5, y: 43}
-    - name: $linkEdit_43
+    - name: $linkEdit_44
       rect:
         serializedVersion: 2
         x: 370
@@ -972,7 +993,7 @@ TextureImporter:
         - {x: 47.5, y: 55}
         - {x: -27.5, y: 55}
         - {x: -42.5, y: 52}
-    - name: $linkEdit_44
+    - name: $linkEdit_45
       rect:
         serializedVersion: 2
         x: 480
@@ -993,7 +1014,7 @@ TextureImporter:
         - {x: 57.5, y: -20}
         - {x: 57.5, y: 54}
         - {x: 53.5, y: 55}
-    - name: $linkEdit_45
+    - name: $linkEdit_46
       rect:
         serializedVersion: 2
         x: 610
@@ -1011,7 +1032,7 @@ TextureImporter:
         - {x: -12, y: -55}
         - {x: 50, y: -55}
         - {x: 50, y: 55}
-    - name: $linkEdit_46
+    - name: $linkEdit_47
       rect:
         serializedVersion: 2
         x: 730
@@ -1029,7 +1050,7 @@ TextureImporter:
         - {x: -30.5, y: -55}
         - {x: 47.5, y: -55}
         - {x: 47.5, y: 55}
-    - name: $linkEdit_47
+    - name: $linkEdit_48
       rect:
         serializedVersion: 2
         x: 860
@@ -1046,7 +1067,7 @@ TextureImporter:
         - {x: 47.5, y: -50}
         - {x: 47.5, y: 10}
         - {x: 41.5, y: 48}
-    - name: $linkEdit_48
+    - name: $linkEdit_49
       rect:
         serializedVersion: 2
         x: 980
@@ -1067,7 +1088,7 @@ TextureImporter:
         - {x: 47.5, y: -47.5}
         - {x: 47.5, y: 48.5}
         - {x: 40.5, y: 52.5}
-    - name: $linkEdit_49
+    - name: $linkEdit_50
       rect:
         serializedVersion: 2
         x: 1080

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C0D240E4-22E9-4CB6-8186-135522547FC3}") = "Unravel", "Assembly-CSharp.csproj", "{148ECBD8-4591-ABA3-C12B-13241339E30E}"
+EndProject
+Project("{C0D240E4-22E9-4CB6-8186-135522547FC3}") = "Unravel", "Assembly-CSharp-Editor.csproj", "{F94F930C-0F06-4649-5DF5-C55D9D51A35F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{148ECBD8-4591-ABA3-C12B-13241339E30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148ECBD8-4591-ABA3-C12B-13241339E30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148ECBD8-4591-ABA3-C12B-13241339E30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148ECBD8-4591-ABA3-C12B-13241339E30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94F930C-0F06-4649-5DF5-C55D9D51A35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94F930C-0F06-4649-5DF5-C55D9D51A35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94F930C-0F06-4649-5DF5-C55D9D51A35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94F930C-0F06-4649-5DF5-C55D9D51A35F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

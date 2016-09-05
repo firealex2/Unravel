@@ -33,34 +33,38 @@ public class Player_Movement : MonoBehaviour {
                 animu.SetBool("move_up", true);
             }
             else
+            {
                 animu.SetBool("move_up", false);
 
+                if (Input.GetKey(KeyCode.D) && move(speed * Time.deltaTime, 0.0f, out hit))
+                {
+                    transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+                    animu.SetBool("move_right", true);
+                }
+                else
+                {
+                    animu.SetBool("move_right", false);
 
-            if (Input.GetKey(KeyCode.S) && move(0.0f, -speed * Time.deltaTime, out hit))
-            {
-                transform.position += new Vector3(0.0f, -speed * Time.deltaTime, 0.0f);
-                animu.SetBool("move_down", true);
+                    if (Input.GetKey(KeyCode.S) && move(0.0f, -speed * Time.deltaTime, out hit))
+                    {
+                        transform.position += new Vector3(0.0f, -speed * Time.deltaTime, 0.0f);
+                        animu.SetBool("move_down", true);
+                    }
+
+                    else
+                    {
+                        animu.SetBool("move_down", false);
+
+                        if (Input.GetKey(KeyCode.A) && move(-speed * Time.deltaTime, 0.0f, out hit))
+                        {
+                            transform.position += new Vector3(-speed * Time.deltaTime, 0.0f, 0.0f);
+                            animu.SetBool("move_left", true);
+                        }
+                        else
+                            animu.SetBool("move_left", false);
+                    }
+                }
             }
-            else
-                animu.SetBool("move_down", false);
-
-
-            if (Input.GetKey(KeyCode.D) && move(speed * Time.deltaTime, 0.0f, out hit))
-            {
-                transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
-                animu.SetBool("move_right", true);
-            }
-            else
-                animu.SetBool("move_right", false);
-
-
-            if (Input.GetKey(KeyCode.A) && move(-speed * Time.deltaTime, 0.0f, out hit))
-            {
-                transform.position += new Vector3(-speed * Time.deltaTime, 0.0f, 0.0f);
-                animu.SetBool("move_left", true);
-            }
-            else
-                animu.SetBool("move_left", false);
         }
     }
 

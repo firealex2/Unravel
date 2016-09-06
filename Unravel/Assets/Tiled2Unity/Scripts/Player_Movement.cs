@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Player_Movement : MonoBehaviour {
 
+    public bool kappa = false;
     public float speed = 0.1f;
     public static Transform player_position;
     public LayerMask blockinglayer;
@@ -27,44 +28,46 @@ public class Player_Movement : MonoBehaviour {
         if (!Game_Over())
         {
 
-            if (Input.GetKey(KeyCode.W) && move(0.0f, speed * Time.deltaTime, out hit))
+            if (Input.GetKey(KeyCode.W) && move(0.0f, speed * Time.deltaTime, out hit) && kappa == false)
             {
                 transform.position += new Vector3(0.0f, speed * Time.deltaTime, 0.0f);
                 animu.SetBool("move_up", true);
+                kappa = true;
             }
             else
-            {
                 animu.SetBool("move_up", false);
 
-                if (Input.GetKey(KeyCode.D) && move(speed * Time.deltaTime, 0.0f, out hit))
-                {
-                    transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
-                    animu.SetBool("move_right", true);
-                }
-                else
-                {
-                    animu.SetBool("move_right", false);
 
-                    if (Input.GetKey(KeyCode.S) && move(0.0f, -speed * Time.deltaTime, out hit))
-                    {
-                        transform.position += new Vector3(0.0f, -speed * Time.deltaTime, 0.0f);
-                        animu.SetBool("move_down", true);
-                    }
-
-                    else
-                    {
-                        animu.SetBool("move_down", false);
-
-                        if (Input.GetKey(KeyCode.A) && move(-speed * Time.deltaTime, 0.0f, out hit))
-                        {
-                            transform.position += new Vector3(-speed * Time.deltaTime, 0.0f, 0.0f);
-                            animu.SetBool("move_left", true);
-                        }
-                        else
-                            animu.SetBool("move_left", false);
-                    }
-                }
+            if (Input.GetKey(KeyCode.D) && move(speed * Time.deltaTime, 0.0f, out hit) && kappa == false)
+            {
+                transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+                animu.SetBool("move_right", true);
+                kappa = true;
             }
+            else
+                animu.SetBool("move_right", false);
+
+
+            if (Input.GetKey(KeyCode.S) && move(0.0f, -speed * Time.deltaTime, out hit) && kappa == false)
+            {
+                transform.position += new Vector3(0.0f, -speed * Time.deltaTime, 0.0f);
+                animu.SetBool("move_down", true);
+                kappa = true;
+            }
+            else
+                animu.SetBool("move_down", false);
+
+
+            if (Input.GetKey(KeyCode.A) && move(-speed * Time.deltaTime, 0.0f, out hit) && kappa == false)
+            {
+                transform.position += new Vector3(-speed * Time.deltaTime, 0.0f, 0.0f);
+                animu.SetBool("move_left", true);
+                kappa = true;
+            }
+            else
+                animu.SetBool("move_left", false);
+
+            kappa = false;
         }
     }
 

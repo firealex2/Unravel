@@ -165,4 +165,4 @@
 - light_spell_9
 - light_spell_9_icon
 - light_spell_10
-- light_spell_10_icon 
+- light_spell_10_icon

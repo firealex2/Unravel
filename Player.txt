@@ -1,7 +1,7 @@
-Player's default HP: 25
-Player's default MP: 10
-Player's default MS: 3
-Player's default SBL: 0
+Player's default HP (hit points): 25
+Player's default MP (mana points): 10
+Player's default MS (movement speed): 3
+Player's default SBL (skill book level): 0
 
 Character Attributes:
 	- Strength (str): Increases player's attack damage. (+1.0 AD)
